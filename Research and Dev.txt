@@ -7,3 +7,6 @@ https://www.codeproject.com/Articles/806029/Getting-started-with-AngularJS-and-A
 https://www.codeproject.com/Articles/869433/AngularJS-MVC-Repository-Dispose?q=mvc+angularjs
 https://www.codeproject.com/Articles/1033076/Integrating-AngularJS-with-ASP-NET-MVC?q=mvc+angularjs
 http://www.tutorialsteacher.com/webapi
+
+
+http://www.techvillaz.com/2017/05/how-to-upgrade-infinix-s2-pro-to.html
