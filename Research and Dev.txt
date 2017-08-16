@@ -1,0 +1,8 @@
+AngularJS Learning
+
+https://www.codeproject.com/Articles/1199166/Net-Core-RESTful-or-WebAPI-MVC-Web-Application
+https://www.codeproject.com/Articles/826307/AngularJS-With-MVC-Web-API
+https://www.codeproject.com/Tips/1074608/CRUD-in-ASP-NET-MVC-using-WebAPI-with-AngularJS
+https://www.codeproject.com/Articles/806029/Getting-started-with-AngularJS-and-ASP-NET-MVC-Par
+https://www.codeproject.com/Articles/869433/AngularJS-MVC-Repository-Dispose?q=mvc+angularjs
+https://www.codeproject.com/Articles/1033076/Integrating-AngularJS-with-ASP-NET-MVC?q=mvc+angularjs
