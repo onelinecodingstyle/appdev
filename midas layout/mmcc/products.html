@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salesorderlayout</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <div id="so-main-div">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand navbar-link" href="#"> <img src="assets/img/no background.png" id="company-logo"></a>
+                            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navcol-1">
+                            <ul class="nav navbar-nav">
+                                <li role="presentation"><a href="index.html">Sales Order</a></li>
+                                <li class="active" role="presentation"><a href="products.html">Products </a></li>
+                                <li role="presentation"><a href="#">Customers </a></li>
+                                <li role="presentation"><a href="#">Users </a></li>
+                                <li role="presentation"><a href="#">Print SO</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li role="presentation"><a href="#">Welcome, John</a></li>
+                                <li role="presentation"><a href="login.html">Log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row" id="divider-nav">
+            <div class="col-md-12" id="horizontal-div">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" id="so-search">
+                <div class="panel panel-default" id="left-main-panel">
+                    <div class="panel-heading">
+                        <label>Search </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="so-col-filter">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-5 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Item Name/Code</label>
+                                    </div>
+                                    <div class="col-sm-7 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-5 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Description </label>
+                                    </div>
+                                    <div class="col-sm-7 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-5 label-column"></div>
+                                    <div class="col-sm-7 input-column">
+                                        <button class="btn btn-default" type="button">Refresh </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="horizontal-div">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="so-col-list">
+                            <div class="panel panel-default">
+                                <form>
+                                    <div class="form-group">
+                                        <div class="col-sm-12 label-column">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Item </th>
+                                                            <th>Category </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>pr3 </td>
+                                                            <td>Category` </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>pr4 </td>
+                                                            <td>Category2 </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9" id="so-col-transaction">
+                <div class="panel panel-default">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="btn-group" role="group">
+                                <button class="btn btn-default" type="button">New </button>
+                                <button class="btn btn-default" type="button">Save </button>
+                                <button class="btn btn-default" type="button">Sell </button>
+                                <button class="btn btn-default" type="button">Buy </button>
+                                <button class="btn btn-default" type="button">Copy </button>
+                                <button class="btn btn-default" type="button" disabled="disabled">Version </button>
+                                <button class="btn btn-default" type="button">Deactivate </button>
+                                <button class="btn btn-default" type="button">Attachment </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="col-md-7">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Basic </h3></div>
+                                        <div class="panel-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <div class="col-sm-3 label-column">
+                                                        <label class="control-label" for="repeat-pawssword-input-field">Item Name/Code</label>
+                                                    </div>
+                                                    <div class="col-sm-9 input-column">
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-sm-3 label-column">
+                                                        <label class="control-label" for="repeat-pawssword-input-field">Type </label>
+                                                    </div>
+                                                    <div class="col-sm-9 input-column">
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-sm-3 label-column">
+                                                        <label class="control-label" for="repeat-pawssword-input-field">Category </label>
+                                                    </div>
+                                                    <div class="col-sm-9 input-column">
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-sm-3 label-column">
+                                                        <label class="control-label" for="repeat-pawssword-input-field">Description </label>
+                                                    </div>
+                                                    <div class="col-sm-9 input-column">
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Picture </h3></div>
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-12"><img src="assets/img/40974-200.png" id="product-upload-image"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <button class="btn btn-default" type="button">Browse </button>
+                                                    <button class="btn btn-default" type="button">Clear </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">Cost and Price</h3></div>
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <div class="col-sm-3 label-column">
+                                                                <label class="control-label" for="repeat-pawssword-input-field">Cost </label>
+                                                            </div>
+                                                            <div class="col-sm-6 input-column">
+                                                                <input type="text" value="Php0.00">
+                                                            </div>
+                                                            <div class="col-md-3"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <div class="col-sm-3 label-column"></div>
+                                                            <div class="col-sm-6 input-column">
+                                                                <label class="control-label"><strong>Sale Price</strong></label>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <label class="control-label">Mark Up</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <div class="col-sm-3 label-column">
+                                                                <label class="control-label" for="repeat-pawssword-input-field">Normal Price</label>
+                                                            </div>
+                                                            <div class="col-sm-6 input-column">
+                                                                <input type="text" value="Php0.00">
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <label class="control-label"><strong>0</strong>% </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default" id="so-table-panel">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">Inventory </h3></div>
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Location </th>
+                                                            <th>Quantity </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Default Location</td>
+                                                            <td>0 </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Storage 1</td>
+                                                            <td>1 </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div>
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#tab-1" role="tab" data-toggle="tab">Product Info</a></li>
+                                    <li><a href="#tab-2" role="tab" data-toggle="tab">Extra Info</a></li>
+                                    <li><a href="#tab-3" role="tab" data-toggle="tab">Bill of Materials</a></li>
+                                    <li><a href="#tab-3" role="tab" data-toggle="tab">Product Vendors</a></li>
+                                    <li><a href="#tab-5" role="tab" data-toggle="tab">Movement History</a></li>
+                                    <li><a href="#tab-4" role="tab" data-toggle="tab">Order History</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" role="tabpanel" id="tab-1"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-2"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-3"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-3"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-5"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"><span class="label label-success">Finished loading products inventory...</span></div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

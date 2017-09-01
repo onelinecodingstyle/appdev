@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salesorderlayout</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <div id="so-main-div">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand navbar-link" href="#"> <img src="assets/img/no background.png" id="company-logo"></a>
+                            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navcol-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active" role="presentation"><a href="index.html">Sales Order</a></li>
+                                <li role="presentation"><a href="products.html" target="_top">Products </a></li>
+                                <li role="presentation"><a href="#">Customers </a></li>
+                                <li role="presentation"><a href="#">Users </a></li>
+                                <li role="presentation"><a href="#">Print SO</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li role="presentation"><a href="#">Welcome, John</a></li>
+                                <li role="presentation"><a href="login.html">Log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row" id="divider-nav">
+            <div class="col-md-12" id="horizontal-div">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" id="so-search">
+                <div class="panel panel-default" id="left-main-panel">
+                    <div class="panel-heading">
+                        <label>Search </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="so-col-filter">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-5 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Order #</label>
+                                    </div>
+                                    <div class="col-sm-7 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-5 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Inventory Status</label>
+                                    </div>
+                                    <div class="col-sm-7 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-5 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Payment Status</label>
+                                    </div>
+                                    <div class="col-sm-7 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-5 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Customer </label>
+                                    </div>
+                                    <div class="col-sm-7 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="horizontal-div">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="so-col-list">
+                            <div class="panel panel-default">
+                                <form>
+                                    <div class="form-group">
+                                        <div class="col-sm-12 label-column">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Order Number</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>SO-001 </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>SO-002 </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9" id="so-col-transaction">
+                <div class="panel panel-default">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="btn-group" role="group">
+                                <button class="btn btn-default" type="button">New </button>
+                                <button class="btn btn-default" type="button">Save </button>
+                                <button class="btn btn-default" type="button">Print </button>
+                                <button class="btn btn-default" type="button">Email </button>
+                                <button class="btn btn-default" type="button">Copy </button>
+                                <button class="btn btn-default" type="button">Version </button>
+                                <button class="btn btn-default" type="button">Cancel Order</button>
+                                <button class="btn btn-default" type="button">Attachment </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Customer </label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Contact </label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Phone </label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Address </label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Sales Rep</label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Location </label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Order #</label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Invoice Date</label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Status </label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default" id="so-table-panel">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th># </th>
+                                                <th>Item </th>
+                                                <th>Description </th>
+                                                <th>Quantity </th>
+                                                <th>Unit Price</th>
+                                                <th>Discount </th>
+                                                <th>Sub total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>* </td>
+                                                <td>Product1 </td>
+                                                <td>Raw material</td>
+                                                <td>2 </td>
+                                                <td>100 </td>
+                                                <td>0% </td>
+                                                <td>200 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>* </td>
+                                                <td>Product2 </td>
+                                                <td>Extender </td>
+                                                <td>1 </td>
+                                                <td>50 </td>
+                                                <td>0% </td>
+                                                <td>50 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>* </td>
+                                                <td>Product4 </td>
+                                                <td>Seasoning </td>
+                                                <td>1 </td>
+                                                <td>20 </td>
+                                                <td>0% </td>
+                                                <td>20 </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-7 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Non-Customer Costs</label>
+                                    </div>
+                                    <div class="col-sm-5 input-column">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Select <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li role="presentation"><a href="#">First Item</a></li>
+                                                <li role="presentation"><a href="#">Second Item</a></li>
+                                                <li role="presentation"><a href="#">Third Item</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-7 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Taxing Scheme</label>
+                                    </div>
+                                    <div class="col-sm-5 input-column">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Select <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li role="presentation"><a href="#">First Item</a></li>
+                                                <li role="presentation"><a href="#">Second Item</a></li>
+                                                <li role="presentation"><a href="#">Third Item</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-7 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Pricing/Currency </label>
+                                    </div>
+                                    <div class="col-sm-5 input-column">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Select <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li role="presentation"><a href="#">First Item</a></li>
+                                                <li role="presentation"><a href="#">Second Item</a></li>
+                                                <li role="presentation"><a href="#">Third Item</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-4 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Remarks </label>
+                                    </div>
+                                    <div class="col-sm-8 input-column">
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 input-column"></div>
+                                    <div class="col-sm-4 input-column">
+                                        <button class="btn btn-default" type="button">Unfullfill </button>
+                                    </div>
+                                    <div class="col-sm-4 input-column">
+                                        <button class="btn btn-default" type="button">Mark Paid</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-6 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Sub-Total</label>
+                                    </div>
+                                    <div class="col-md-offset-0 col-sm-6 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Php 270.00</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-6 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Total </label>
+                                    </div>
+                                    <div class="col-md-offset-0 col-sm-6 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Php 270.00</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-6 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Paid </label>
+                                    </div>
+                                    <div class="col-sm-6 input-column">
+                                        <input class="form-control" type="text" value="Php 0.00">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-6 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Balance </label>
+                                    </div>
+                                    <div class="col-md-offset-0 col-sm-6 label-column">
+                                        <label class="control-label" for="repeat-pawssword-input-field">Php 270.00</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div>
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#tab-1" role="tab" data-toggle="tab"><strong>SALES</strong> </a></li>
+                                    <li><a href="#tab-2" role="tab" data-toggle="tab">FULFILL </a></li>
+                                    <li><a href="#tab-3" role="tab" data-toggle="tab">RETURN </a></li>
+                                    <li><a href="#tab-3" role="tab" data-toggle="tab">RESTOCK </a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" role="tabpanel" id="tab-1"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-2"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-3"></div>
+                                    <div class="tab-pane" role="tabpanel" id="tab-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"><span class="label label-success">Finished loading sales order....</span></div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
