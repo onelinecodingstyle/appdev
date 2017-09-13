@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncognitoIS.Common", "..\..\..\..\..\..\Projects\IncognitoIS\IncognitoIS\Common\IncognitoIS.Common.csproj", "{264FF40F-409C-44DB-B97B-94E3734BF4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncognitoIS.Application", "..\..\..\..\..\..\Projects\IncognitoIS\IncognitoIS\IncognitoIS.Application\IncognitoIS.Application.csproj", "{7CD86048-2658-4390-BA54-2BDB51AA5C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncognitoIS.BLL", "..\..\..\..\..\..\Projects\IncognitoIS\IncognitoIS\IncognitoIS.BLL\IncognitoIS.BLL.csproj", "{22B0049E-812F-46A1-8317-DCAF3559F1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncognitoIS.DAL", "..\..\..\..\..\..\Projects\IncognitoIS\IncognitoIS\IncognitoIS.DAL\IncognitoIS.DAL.csproj", "{ECB55A09-5D30-4A87-BFE4-4634A28CB2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncognitoIS.Interfaces", "..\..\..\..\..\..\Projects\IncognitoIS\IncognitoIS\IncognitoIS.Interfaces\IncognitoIS.Interfaces.csproj", "{A5BC7536-8301-40AB-A952-EC8B13FA82CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncognitoIS.Repository", "..\..\..\..\..\..\Projects\IncognitoIS\IncognitoIS\IncognitoIS.Repo\IncognitoIS.Repository.csproj", "{959B9B22-7999-4125-A3C3-80BDF2B0407E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://johnrypaulino.visualstudio.com/
+		SccProjectUniqueName0 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\Common\\IncognitoIS.Common.csproj
+		SccProjectName0 = $/IncognitoIS/IncognitoIS/Common
+		SccAuxPath0 = https://johnrypaulino.visualstudio.com
+		SccLocalPath0 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\Common
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.Application\\IncognitoIS.Application.csproj
+		SccProjectName1 = $/IncognitoIS/IncognitoIS/IncognitoIS.Application
+		SccAuxPath1 = https://johnrypaulino.visualstudio.com
+		SccLocalPath1 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.Application
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.BLL\\IncognitoIS.BLL.csproj
+		SccProjectName2 = $/IncognitoIS/IncognitoIS/IncognitoIS.BLL
+		SccAuxPath2 = https://johnrypaulino.visualstudio.com
+		SccLocalPath2 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.BLL
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.DAL\\IncognitoIS.DAL.csproj
+		SccProjectName3 = $/IncognitoIS/IncognitoIS/IncognitoIS.DAL
+		SccAuxPath3 = https://johnrypaulino.visualstudio.com
+		SccLocalPath3 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.DAL
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.Interfaces\\IncognitoIS.Interfaces.csproj
+		SccProjectName4 = $/IncognitoIS/IncognitoIS/IncognitoIS.Interfaces
+		SccAuxPath4 = https://johnrypaulino.visualstudio.com
+		SccLocalPath4 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.Interfaces
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.Repo\\IncognitoIS.Repository.csproj
+		SccProjectName5 = $/IncognitoIS/IncognitoIS/IncognitoIS.Repo
+		SccAuxPath5 = https://johnrypaulino.visualstudio.com
+		SccLocalPath5 = ..\\..\\..\\..\\..\\..\\Projects\\IncognitoIS\\IncognitoIS\\IncognitoIS.Repo
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264FF40F-409C-44DB-B97B-94E3734BF4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264FF40F-409C-44DB-B97B-94E3734BF4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264FF40F-409C-44DB-B97B-94E3734BF4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264FF40F-409C-44DB-B97B-94E3734BF4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD86048-2658-4390-BA54-2BDB51AA5C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD86048-2658-4390-BA54-2BDB51AA5C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD86048-2658-4390-BA54-2BDB51AA5C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD86048-2658-4390-BA54-2BDB51AA5C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B0049E-812F-46A1-8317-DCAF3559F1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B0049E-812F-46A1-8317-DCAF3559F1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B0049E-812F-46A1-8317-DCAF3559F1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B0049E-812F-46A1-8317-DCAF3559F1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB55A09-5D30-4A87-BFE4-4634A28CB2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB55A09-5D30-4A87-BFE4-4634A28CB2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB55A09-5D30-4A87-BFE4-4634A28CB2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB55A09-5D30-4A87-BFE4-4634A28CB2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BC7536-8301-40AB-A952-EC8B13FA82CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BC7536-8301-40AB-A952-EC8B13FA82CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BC7536-8301-40AB-A952-EC8B13FA82CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BC7536-8301-40AB-A952-EC8B13FA82CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959B9B22-7999-4125-A3C3-80BDF2B0407E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959B9B22-7999-4125-A3C3-80BDF2B0407E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959B9B22-7999-4125-A3C3-80BDF2B0407E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959B9B22-7999-4125-A3C3-80BDF2B0407E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

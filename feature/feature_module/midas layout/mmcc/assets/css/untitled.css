@@ -1,0 +1,45 @@
+div.panel.panel-default{
+  background-color:#fffdfd;
+  padding:10px;
+}
+
+img#product-upload-image{
+  max-height:90px;
+}
+
+img#company-logo{
+  max-height:149px;
+  margin-top:-40px;
+  margin-left:-40px;
+}
+
+img#login-logo{
+  max-height:200px;
+}
+
+div#divider-nav.row{
+  opacity:0;
+}
+
+div#so-table-panel.panel.panel-default{
+  height:205px;
+  padding:10px;
+}
+
+div#horizontal-div.col-md-12{
+  background-color:#f4f404;
+}
+
+div#left-main-panel.panel.panel-default{
+  height:600px;
+}
+
+div.panel.panel-default{
+}
+
+body{
+  margin:0;
+  background-color:#f4f404;
+  padding:10px;
+}
+
