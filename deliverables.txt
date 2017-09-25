@@ -1,0 +1,18 @@
+1 product 
+different supplier
+different price
+
+sales order selection, with option to select supplier and price
+09/24/2017
+Printing
+Total sales for the day/weeks/month
+Adjust views
+Sort products ascending
+Editable prices
+to be submitted on 09/30/2017 via remote desktop
+Select Unit in Product Shopping
+Include Unit in Shopping Cart
+Editable Input Quantity in Shopping
+Customer selection first
+Descriptive column for products order example (number of quantity in box) (22.68kilograms per Box at 61pesos)
+(sold per kilo or per bag or bundle)
